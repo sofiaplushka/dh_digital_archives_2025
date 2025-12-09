@@ -52,7 +52,7 @@
 
 ## Контакты
 
-[Telegram](https://t.me/sofiaplushka)
+Автор проекта – [Чудинова София](https://t.me/sofiaplushka)
 
 ## Условия использования
 
