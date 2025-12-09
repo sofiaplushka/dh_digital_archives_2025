@@ -1,0 +1,392 @@
+{
+  "created": "2025-11-26 06:53:39",
+  "messages": [
+    {
+      "facets": [],
+      "level": -1,
+      "message": "Document retrieved successfully.",
+      "ref": null,
+      "tag": null,
+      "title": "Retrieved HTML document in 0.21 sec.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "<div class=\"text-danger\">Element \u201cstyle\u201d not allowed as child of element \u201cbody\u201d in this context. (Suppressing further errors from this subtree.)</div><div class=\"text-danger\">Start tag \u201cbody\u201d seen but an element of the same type was already open.</div><div class=\"text-danger\">Element \u201cstyle\u201d not allowed as child of element \u201cbody\u201d in this context. (Suppressing further errors from this subtree.)</div><div class=\"text-danger\">Bad value \u201cnavbar\u201d for attribute \u201caria-haspopup\u201d on element \u201cbutton\u201d.</div><div class=\"text-danger\">Bad value \u201cdialog\u201d for attribute \u201crole\u201d on element \u201cnav\u201d.</div><div class=\"text-danger\">Attribute \u201caria-modal\u201d not allowed on element \u201cnav\u201d at this point.</div><div class=\"text-danger\">Element \u201cstyle\u201d not allowed as child of element \u201cmain\u201d in this context. (Suppressing further errors from this subtree.)</div><div class=\"text-danger\">Stray start tag \u201cscript\u201d.</div>",
+      "ref": [
+        "https://validator.w3.org/nu/?doc=https://movie-saga.com/"
+      ],
+      "tag": "Html",
+      "title": "Invalid HTML document https://movie-saga.com/. 8 errors.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "\nInvalid links prevent web bots from accessing the full content in order\nto preserve it. Also check out https://en.wikipedia.org/wiki/Link_rot <br /> Valid links: <br /> <a href=\"https://movie-saga.com/sagas/lord-of-the-rings.html\" class=\"text-success\">https://movie-saga.com/sagas/lord-of-the-rings.html</a><br /> <a href=\"https://movie-saga.com/sagas/breaking-bad.html\" class=\"text-success\">https://movie-saga.com/sagas/breaking-bad.html</a><br /> <a href=\"https://movie-saga.com/sagas/pirates-of-the-caribbean.html\" class=\"text-success\">https://movie-saga.com/sagas/pirates-of-the-caribbean.html</a><br /> <a href=\"https://movie-saga.com/sagas/bleach.html\" class=\"text-success\">https://movie-saga.com/sagas/bleach.html</a><br /> <a href=\"https://movie-saga.com/sagas/game-of-thrones.html\" class=\"text-success\">https://movie-saga.com/sagas/game-of-thrones.html</a><br /> <a href=\"https://movie-saga.com/sagas/john-wick.html\" class=\"text-success\">https://movie-saga.com/sagas/john-wick.html</a><br /> <a href=\"https://movie-saga.com\" class=\"text-success\">https://movie-saga.com</a><br /> <a href=\"https://movie-saga.com/sagas/star-wars.html\" class=\"text-success\">https://movie-saga.com/sagas/star-wars.html</a><br /> <a href=\"https://movie-saga.com/sagas/planet-of-the-apes.html\" class=\"text-success\">https://movie-saga.com/sagas/planet-of-the-apes.html</a><br /> <a href=\"https://movie-saga.com/sagas/minions.html\" class=\"text-success\">https://movie-saga.com/sagas/minions.html</a><br /> <a href=\"https://movie-saga.com/sagas/one-piece.html\" class=\"text-success\">https://movie-saga.com/sagas/one-piece.html</a><br /> <a href=\"https://movie-saga.com/sagas/fast-and-furious.html\" class=\"text-success\">https://movie-saga.com/sagas/fast-and-furious.html</a><br /> <a href=\"https://movie-saga.com/sagas/marvel-mcu.html\" class=\"text-success\">https://movie-saga.com/sagas/marvel-mcu.html</a><br /> <a href=\"https://movie-saga.com/sagas/matrix.html\" class=\"text-success\">https://movie-saga.com/sagas/matrix.html</a><br /> ",
+      "ref": [
+        "http://validator.w3.org/checklink?uri=https://movie-saga.com/&hide_type=all&depth=&check=Check"
+      ],
+      "tag": "Links",
+      "title": "There are 14 valid and 0 invalid links.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "The description attribute provides a concise explanation of a Web page's content. This allows the Web page authors to give a more meaningful description for listings than might be displayed if the search engine was unable to automatically create its own description based on the page content. The description tag information is also used in web archives to describe archived web pages.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/Meta_element#The_description_attribute"
+      ],
+      "tag": null,
+      "title": "Description meta tag found with content: \"On movie saga you will find informations about the orders of your favorite sagas\"",
+      "weight": "LOW"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "The absence of CSS simplifies archiving.",
+      "ref": null,
+      "tag": null,
+      "title": "No CSS files used in this webpage.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 0,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 remote :<br /> <a class=\"text-danger\" href=\"https://beamanalytics.b-cdn.net/beam.min.js\">https://beamanalytics.b-cdn.net/beam.min.js</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local scripts found: 0, remote scripts found: 1",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "Inline JavaScript code inside HTML is considered a bad practice. The absence of inline JavaScript simplifies archiving.",
+      "ref": [
+        "http://stackoverflow.com/questions/14928068/they-said-javascript-code-in-html-considered-bad-practice-how-to-solve-this"
+      ],
+      "tag": null,
+      "title": "1 inline script elements found",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "\n<table class=\"table table-condensed\"> <tr><td>Connection</td><td>keep-alive</td></tr> <tr><td>Content-Length</td><td>4447</td></tr> <tr><td>Server</td><td>GitHub.com</td></tr> <tr><td>Content-Type</td><td>text/html; charset=utf-8</td></tr> <tr><td>Last-Modified</td><td>Sat, 04 Jan 2025 22:09:22 GMT</td></tr> <tr><td>Access-Control-Allow-Origin</td><td>*</td></tr> <tr><td>ETag</td><td>W/\"6779b192-51ce\"</td></tr> <tr><td>expires</td><td>Tue, 09 Dec 2025 18:59:32 GMT</td></tr> <tr><td>Cache-Control</td><td>max-age=600</td></tr> <tr><td>Content-Encoding</td><td>gzip</td></tr> <tr><td>x-proxy-cache</td><td>MISS</td></tr> <tr><td>X-GitHub-Request-Id</td><td>C11A:1C4C40:1C90993:1CD030D:69386F3C</td></tr> <tr><td>Accept-Ranges</td><td>bytes</td></tr> <tr><td>Date</td><td>Tue, 09 Dec 2025 19:12:45 GMT</td></tr> <tr><td>Via</td><td>1.1 varnish</td></tr> <tr><td>Age</td><td>1</td></tr> <tr><td>X-Served-By</td><td>cache-par-lfpg1960067-PAR</td></tr> <tr><td>X-Cache</td><td>HIT</td></tr> <tr><td>X-Cache-Hits</td><td>1</td></tr> <tr><td>X-Timer</td><td>S1765307566.553213,VS0,VE7</td></tr> <tr><td>Vary</td><td>Accept-Encoding</td></tr> <tr><td>X-Fastly-Request-ID</td><td>65164cd70f2d944e2f01df83626b1e3082ebae77</td></tr> </table>",
+      "ref": null,
+      "tag": null,
+      "title": "HTTP Headers found",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "This header defines type of encoding used on the data. (e.g. compression).",
+      "ref": [
+        "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields ",
+        "https://en.wikipedia.org/wiki/HTTP_compression"
+      ],
+      "tag": null,
+      "title": "Content encoding was clearly defined in HTTP Headers.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "Correctly defined HTTP headers help web bots understand the content.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/MIME"
+      ],
+      "tag": null,
+      "title": "Content type was clearly defined.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": " <strong>Expires</strong> was clearly defined in HTTP headers: <strong>Tue, 09 Dec 2025 18:59:32 GMT</strong>. <br /> <strong>Last-Modified</strong> was clearly defined in HTTP headers: <strong>Sat, 04 Jan 2025 22:09:22 GMT</strong>. <br/> <strong>Etag</strong> was clearly defined in HTTP headers: <strong>W/\"6779b192-51ce\"</strong>. <br />\nHTTP caching headers are critical to improve web archiving bots performance\nbecause they help avoid downloading unmodified content multiple times.",
+      "ref": [
+        "https://developers.google.com/speed/docs/best-practices/caching"
+      ],
+      "tag": null,
+      "title": "HTTP caching headers enabled.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Disallow: commands are used to block web bots from specific website areas. They may cause web archiving problems.",
+      "ref": [
+        "http://www.robotstxt.org/robotstxt.html"
+      ],
+      "tag": null,
+      "title": "There are no \"Disallow:\" commands in your robots.txt file",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "This is used to tell web robots where your sitemap is located and increase site accessiblity.",
+      "ref": [
+        "http://www.advancedhtml.co.uk/robots-sitemaps.htm"
+      ],
+      "tag": null,
+      "title": "There is a sitemap.xml reference in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Sitemaps are an easy way for webmasters to inform web bots about available web pages so that they can more intelligently crawl the site.",
+      "ref": [
+        "http://www.sitemaps.org/"
+      ],
+      "tag": null,
+      "title": "Sitemap file exists https://movie-saga.com/sitemap.xml",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 13 local :<br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/star-wars.jpg.webp\">https://movie-saga.com/assets/img/star-wars.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/pirates-of-the-caribbean.jpg.webp\">https://movie-saga.com/assets/img/pirates-of-the-caribbean.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/ff.jpg.webp\">https://movie-saga.com/assets/img/ff.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/minions.jpg.webp\">https://movie-saga.com/assets/img/minions.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/one-piece.jpg.webp\">https://movie-saga.com/assets/img/one-piece.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/breaking-bad.jpg.webp\">https://movie-saga.com/assets/img/breaking-bad.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/bleach.jpg.webp\">https://movie-saga.com/assets/img/bleach.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/got.jpg.webp\">https://movie-saga.com/assets/img/got.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/planet-of-the-apes.jpg.webp\">https://movie-saga.com/assets/img/planet-of-the-apes.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/mcu.jpg.webp\">https://movie-saga.com/assets/img/mcu.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/lotr.jpg.webp\">https://movie-saga.com/assets/img/lotr.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/john-wick.jpg.webp\">https://movie-saga.com/assets/img/john-wick.jpg.webp</a><br /> <a class=\"text-success\" href=\"https://movie-saga.com/assets/img/matrix.jpg.webp\">https://movie-saga.com/assets/img/matrix.jpg.webp</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": "Images",
+      "title": "Local images found: 13, remote images found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "Format validation is the process of determining the level of compliance of a digital object to the specification for its purported format, e.g.: I have an object purportedly of format F; is it?",
+      "ref": [
+        "https://jhove.sourceforge.net/"
+      ],
+      "tag": "Images",
+      "title": "Checking 13 images with JHOVE Object Validation Environment",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:46 GMT+01:00 RepresentationInformation: /dev/shm/tmpp7h_9qis ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:46 GMT+01:00 Size: 12880 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/star-wars.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:47 GMT+01:00 RepresentationInformation: /dev/shm/tmp0mb5vhng ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:46 GMT+01:00 Size: 3276 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/pirates-of-the-caribbean.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:46 GMT+01:00 RepresentationInformation: /dev/shm/tmpm88butf_ ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:46 GMT+01:00 Size: 5764 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/ff.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:46 GMT+01:00 RepresentationInformation: /dev/shm/tmpbo237ih4 ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:46 GMT+01:00 Size: 2408 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/minions.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:46 GMT+01:00 RepresentationInformation: /dev/shm/tmpjkjbox8e ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:46 GMT+01:00 Size: 4598 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/one-piece.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:47 GMT+01:00 RepresentationInformation: /dev/shm/tmpsuf1e4ck ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:46 GMT+01:00 Size: 8872 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/breaking-bad.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:47 GMT+01:00 RepresentationInformation: /dev/shm/tmph5ynxexa ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:47 GMT+01:00 Size: 12166 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/bleach.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:47 GMT+01:00 RepresentationInformation: /dev/shm/tmpbu1ydf1x ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:47 GMT+01:00 Size: 9634 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/got.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:47 GMT+01:00 RepresentationInformation: /dev/shm/tmp4ktaw8qp ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:47 GMT+01:00 Size: 11762 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/planet-of-the-apes.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:47 GMT+01:00 RepresentationInformation: /dev/shm/tmphuzncrey ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:47 GMT+01:00 Size: 12230 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/mcu.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:48 GMT+01:00 RepresentationInformation: /dev/shm/tmpdx0x0b34 ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:47 GMT+01:00 Size: 16092 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/lotr.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:48 GMT+01:00 RepresentationInformation: /dev/shm/tmpu67mu1yf ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:48 GMT+01:00 Size: 6534 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/john-wick.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "<pre>Jhove (Rel. 1.28.0, 2023-07-15) Date: 2025-12-09 20:12:48 GMT+01:00 RepresentationInformation: /dev/shm/tmpfrjzq14w ReportingModule: BYTESTREAM, Rel. 1.4 (2018-10-01) LastModified: 2025-12-09 20:12:48 GMT+01:00 Size: 5672 Format: bytestream Status: Well-Formed and valid MIMEtype: application/octet-stream\n</pre>",
+      "ref": null,
+      "tag": null,
+      "title": "Image checked: https://movie-saga.com/assets/img/matrix.jpg.webp",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "Proprietary formats are not recommended for long term preservation. Please consider changing your content to open formats.",
+      "ref": [
+        "http://www.ands.org.au/guides/file-formats-working.html"
+      ],
+      "tag": null,
+      "title": "You are not using any external proprietary objects (Flash, Quicktime).",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 39,
+      "message": "Website performance affects greatly the process of data aggregation and web accessibility. Performance evaluation rating is 100 when response time is 200ms or less and 0 when response time is more than 2sec.",
+      "ref": [
+        "https://developers.google.com/speed/docs/insights/Server"
+      ],
+      "tag": null,
+      "title": "Network response time is 1110 ms",
+      "weight": "HIGH"
+    }
+  ],
+  "test": {
+    "Accessibility": 75,
+    "Accessibility_weight": "medium",
+    "Cohesion": 50,
+    "Cohesion_weight": "medium",
+    "Metadata": 100,
+    "Metadata_weight": "medium",
+    "Standards_Compliance": 91,
+    "Standards_Compliance_weight": "medium",
+    "website_archivability": 79
+  },
+  "test_id": 500562,
+  "url": "https://movie-saga.com/"
+}
