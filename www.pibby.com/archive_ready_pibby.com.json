@@ -1,0 +1,235 @@
+{
+  "created": "2025-11-26 06:53:39",
+  "messages": [
+    {
+      "facets": [],
+      "level": -1,
+      "message": "Document retrieved successfully.",
+      "ref": null,
+      "tag": null,
+      "title": "Retrieved HTML document in 0.35 sec.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://pibby.com/assets/index-Bld6G6gN.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://pibby.com/assets/index-Bld6G6gN.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "Web pages which conform with Web Standards have a higher possibility to be preserved correctly.",
+      "ref": [
+        "https://validator.w3.org/nu/?doc=https://pibby.com"
+      ],
+      "tag": "Html",
+      "title": "Valid HTML document https://pibby.com.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "\nInvalid links prevent web bots from accessing the full content in order\nto preserve it. Also check out https://en.wikipedia.org/wiki/Link_rot <br /> Valid links: <br /> <a href=\"https://pibby.com/assets/index-Bld6G6gN.css\" class=\"text-success\">https://pibby.com/assets/index-Bld6G6gN.css</a><br /> ",
+      "ref": [
+        "http://validator.w3.org/checklink?uri=https://pibby.com&hide_type=all&depth=&check=Check"
+      ],
+      "tag": "Links",
+      "title": "There are 1 valid and 0 invalid links.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 local :<br /> <a class=\"text-success\" href=\"https://pibby.com/assets/index-Bld6G6gN.css\">https://pibby.com/assets/index-Bld6G6gN.css</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local CSS found: 1, remote CSS found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 local :<br /> <a class=\"text-success\" href=\"https://pibby.com/assets/index-Bo2nFjTo.js\">https://pibby.com/assets/index-Bo2nFjTo.js</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local scripts found: 1, remote scripts found: 0",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Inline JavaScript code inside HTML is considered a bad practice. The absence of inline JavaScript simplifies archiving.",
+      "ref": [
+        "http://stackoverflow.com/questions/14928068/they-said-javascript-code-in-html-considered-bad-practice-how-to-solve-this"
+      ],
+      "tag": null,
+      "title": "No inline script elements found.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "\n<table class=\"table table-condensed\"> <tr><td>Date</td><td>Tue, 09 Dec 2025 19:12:42 GMT</td></tr> <tr><td>Server</td><td>Apache/2.4.65 (Debian)</td></tr> <tr><td>Last-Modified</td><td>Sun, 14 Sep 2025 16:32:30 GMT</td></tr> <tr><td>ETag</td><td>\"1d6-63ec56eee59d1-gzip\"</td></tr> <tr><td>Accept-Ranges</td><td>bytes</td></tr> <tr><td>Vary</td><td>Accept-Encoding</td></tr> <tr><td>Content-Encoding</td><td>gzip</td></tr> <tr><td>Content-Length</td><td>310</td></tr> <tr><td>Content-Type</td><td>text/html</td></tr> </table>",
+      "ref": null,
+      "tag": null,
+      "title": "HTTP Headers found",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "This header defines type of encoding used on the data. (e.g. compression).",
+      "ref": [
+        "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields ",
+        "https://en.wikipedia.org/wiki/HTTP_compression"
+      ],
+      "tag": null,
+      "title": "Content encoding was clearly defined in HTTP Headers.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "Correctly defined HTTP headers help web bots understand the content.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/MIME"
+      ],
+      "tag": null,
+      "title": "Content type was clearly defined.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": " Expires was not defined. <br /> <strong>Last-Modified</strong> was clearly defined in HTTP headers: <strong>Sun, 14 Sep 2025 16:32:30 GMT</strong>. <br/> <strong>Etag</strong> was clearly defined in HTTP headers: <strong>\"1d6-63ec56eee59d1-gzip\"</strong>. <br />\nHTTP caching headers are critical to improve web archiving bots performance\nbecause they help avoid downloading unmodified content multiple times.",
+      "ref": [
+        "https://developers.google.com/speed/docs/best-practices/caching"
+      ],
+      "tag": null,
+      "title": "HTTP caching headers enabled.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Disallow: commands are used to block web bots from specific website areas. They may cause web archiving problems.",
+      "ref": [
+        "http://www.robotstxt.org/robotstxt.html"
+      ],
+      "tag": null,
+      "title": "There are no \"Disallow:\" commands in your robots.txt file",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "This can be used to tell search engines or other robots where your sitemap is located.",
+      "ref": [
+        "http://www.advancedhtml.co.uk/robots-sitemaps.htm"
+      ],
+      "tag": null,
+      "title": "There is no sitemap.xml reference in your robots.txt file.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "Sitemaps are an easy way for webmasters to inform web bots about available web pages so that they can more intelligently crawl the site.",
+      "ref": [
+        "http://www.sitemaps.org/"
+      ],
+      "tag": null,
+      "title": "No sitemap.xml found.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": "Therefore, it is easier to be archived.",
+      "ref": null,
+      "tag": null,
+      "title": "No images found in this page.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "Proprietary formats are not recommended for long term preservation. Please consider changing your content to open formats.",
+      "ref": [
+        "http://www.ands.org.au/guides/file-formats-working.html"
+      ],
+      "tag": null,
+      "title": "You are not using any external proprietary objects (Flash, Quicktime).",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 81,
+      "message": "Website performance affects greatly the process of data aggregation and web accessibility. Performance evaluation rating is 100 when response time is 200ms or less and 0 when response time is more than 2sec.",
+      "ref": [
+        "https://developers.google.com/speed/docs/insights/Server"
+      ],
+      "tag": null,
+      "title": "Network response time is 352 ms",
+      "weight": "HIGH"
+    }
+  ],
+  "test": {
+    "Accessibility": 74,
+    "Accessibility_weight": "medium",
+    "Cohesion": 100,
+    "Cohesion_weight": "medium",
+    "Metadata": 100,
+    "Metadata_weight": "medium",
+    "Standards_Compliance": 86,
+    "Standards_Compliance_weight": "medium",
+    "website_archivability": 90
+  },
+  "test_id": 500561,
+  "url": "https://pibby.com"
+}
