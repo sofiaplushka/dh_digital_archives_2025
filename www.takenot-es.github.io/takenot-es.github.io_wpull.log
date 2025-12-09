@@ -1,0 +1,27 @@
+URL: https://takenot-es.github.io
+Return code: 1
+
+STDOUT:
+
+
+STDERR:
+Traceback (most recent call last):
+  File [35m"<frozen runpy>"[0m, line [35m198[0m, in [35m_run_module_as_main[0m
+  File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
+  File [35m"C:\Users\schudinova\AppData\Local\Programs\Python\Python313\Scripts\wpull.exe\__main__.py"[0m, line [35m4[0m, in [35m<module>[0m
+    from wpull.application.main import main
+  File [35m"C:\Users\schudinova\AppData\Local\Programs\Python\Python313\Lib\site-packages\wpull\application\main.py"[0m, line [35m4[0m, in [35m<module>[0m
+    from wpull.application.builder import Builder
+  File [35m"C:\Users\schudinova\AppData\Local\Programs\Python\Python313\Lib\site-packages\wpull\application\builder.py"[0m, line [35m8[0m, in [35m<module>[0m
+    from wpull.application.tasks.conversion import LinkConversionSetupTask, \
+        LinkConversionTask, QueuedFileSource
+  File [35m"C:\Users\schudinova\AppData\Local\Programs\Python\Python313\Lib\site-packages\wpull\application\tasks\conversion.py"[0m, line [35m6[0m, in [35m<module>[0m
+    from wpull.pipeline.pipeline import ItemTask, ItemSource
+  File [35m"C:\Users\schudinova\AppData\Local\Programs\Python\Python313\Lib\site-packages\wpull\pipeline\pipeline.py"[0m, line [35m21[0m, in [35m<module>[0m
+    class ItemTask(Generic[WorkItemT], metaclass=abc.ABCMeta):
+    ...<3 lines>...
+            pass
+  File [35m"C:\Users\schudinova\AppData\Local\Programs\Python\Python313\Lib\site-packages\wpull\pipeline\pipeline.py"[0m, line [35m23[0m, in [35mItemTask[0m
+    @[1;31masyncio.coroutine[0m
+     [1;31m^^^^^^^^^^^^^^^^^[0m
+[1;35mAttributeError[0m: [35mmodule 'asyncio' has no attribute 'coroutine'. Did you mean: 'coroutines'?[0m
