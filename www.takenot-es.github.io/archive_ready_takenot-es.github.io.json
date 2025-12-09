@@ -1,0 +1,275 @@
+{
+  "created": "2025-11-26 06:53:39",
+  "messages": [
+    {
+      "facets": [],
+      "level": -1,
+      "message": "Document retrieved successfully.",
+      "ref": null,
+      "tag": null,
+      "title": "Retrieved HTML document in 0.19 sec.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://use.typekit.net/gsf1mow.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://use.typekit.net/gsf1mow.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://takenot-es.github.io/assets/sass/theme.css&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://takenot-es.github.io/assets/sass/theme.css. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "Web pages which do not conform with Web Standards have a lower possibility to be preserved correctly.",
+      "ref": [
+        "http://jigsaw.w3.org/css-validator/validator?uri=https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Special+Gothic:wght@400..700&display=swap&warning=0&profile=css3"
+      ],
+      "tag": "CSS",
+      "title": "Invalid CSS https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Special+Gothic:wght@400..700&display=swap. Located  errors,  warnings.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 0,
+      "message": "<div class=\"text-danger\">Bad value \u201c\u201d for attribute \u201chref\u201d on element \u201clink\u201d: Must be non-empty.</div>",
+      "ref": [
+        "https://validator.w3.org/nu/?doc=https://takenot-es.github.io"
+      ],
+      "tag": "Html",
+      "title": "Invalid HTML document https://takenot-es.github.io. 1 errors.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "\nInvalid links prevent web bots from accessing the full content in order\nto preserve it. Also check out https://en.wikipedia.org/wiki/Link_rot <br /> Valid links: <br /> <a href=\"https://use.typekit.net/gsf1mow.css\" class=\"text-success\">https://use.typekit.net/gsf1mow.css</a><br /> <a href=\"https://takenot-es.github.io/work/mdguidelines/\" class=\"text-success\">https://takenot-es.github.io/work/mdguidelines/</a><br /> <a href=\"https://takenot-es.github.io/work/adapt-mortgage/\" class=\"text-success\">https://takenot-es.github.io/work/adapt-mortgage/</a><br /> <a href=\"https://takenot-es.github.io/work/mrktpay/\" class=\"text-success\">https://takenot-es.github.io/work/mrktpay/</a><br /> <a href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0\" class=\"text-success\">https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0</a><br /> <a href=\"https://takenot-es.github.io/work/scout/\" class=\"text-success\">https://takenot-es.github.io/work/scout/</a><br /> <a href=\"https://takenot-es.github.io/about/\" class=\"text-success\">https://takenot-es.github.io/about/</a><br /> <a href=\"https://takenot-es.github.io/\" class=\"text-success\">https://takenot-es.github.io/</a><br /> <a href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\" class=\"text-success\">https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined</a><br /> <a href=\"https://takenot-es.github.io/work/princeton-mortgage/\" class=\"text-success\">https://takenot-es.github.io/work/princeton-mortgage/</a><br /> <a href=\"https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Special+Gothic:wght@400..700&amp;display=swap\" class=\"text-success\">https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Special+Gothic:wght@400..700&amp;display=swap</a><br /> <a href=\"https://takenot-es.github.io/work/club-soda/\" class=\"text-success\">https://takenot-es.github.io/work/club-soda/</a><br /> <a href=\"https://takenot-es.github.io/assets/sass/theme.css\" class=\"text-success\">https://takenot-es.github.io/assets/sass/theme.css</a><br /> <a href=\"https://takenot-es.github.io/work/alight-campaigns/\" class=\"text-success\">https://takenot-es.github.io/work/alight-campaigns/</a><br /> ",
+      "ref": [
+        "http://validator.w3.org/checklink?uri=https://takenot-es.github.io&hide_type=all&depth=&check=Check"
+      ],
+      "tag": "Links",
+      "title": "There are 14 valid and 0 invalid links.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "The description attribute provides a concise explanation of a Web page's content. This allows the Web page authors to give a more meaningful description for listings than might be displayed if the search engine was unable to automatically create its own description based on the page content. The description tag information is also used in web archives to describe archived web pages.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/Meta_element#The_description_attribute"
+      ],
+      "tag": null,
+      "title": "Description meta tag found with content: \"Takenotes Design Studio is my personal design studio (a.k.a. the desk in my living room). I\u2019m Ryan Underwood\u2014an unapologetically non-award-winning designer, leader, and part-time front-end developer. (Awards are all politics anyway, and I never submit. Not that I\u2019m salty.)\"",
+      "weight": "LOW"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 20,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 local :<br /> <a class=\"text-success\" href=\"https://takenot-es.github.io/assets/sass/theme.css\">https://takenot-es.github.io/assets/sass/theme.css</a><br /> 4 remote :<br /> <a class=\"text-danger\" href=\"https://use.typekit.net/gsf1mow.css\">https://use.typekit.net/gsf1mow.css</a><br /> <a class=\"text-danger\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0\">https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0</a><br /> <a class=\"text-danger\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\">https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined</a><br /> <a class=\"text-danger\" href=\"https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Special+Gothic:wght@400..700&amp;display=swap\">https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Special+Gothic:wght@400..700&amp;display=swap</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local CSS found: 1, remote CSS found: 4",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 0,
+      "message": " used in a website but hosted elsewhere may cause problems in web\narchiving because they may not be captured when the site is archived.\nWhat is more, the site is depended on 3rd party sites which may not be\navailable in the future, causing incontrolable problems.<br /> 1 remote :<br /> <a class=\"text-danger\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js\">https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js</a><br /> ",
+      "ref": [
+        "https://en.wikipedia.org/wiki/Inline_linking"
+      ],
+      "tag": null,
+      "title": "Local scripts found: 0, remote scripts found: 1",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Inline JavaScript code inside HTML is considered a bad practice. The absence of inline JavaScript simplifies archiving.",
+      "ref": [
+        "http://stackoverflow.com/questions/14928068/they-said-javascript-code-in-html-considered-bad-practice-how-to-solve-this"
+      ],
+      "tag": null,
+      "title": "No inline script elements found.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": -1,
+      "message": "\n<table class=\"table table-condensed\"> <tr><td>Connection</td><td>keep-alive</td></tr> <tr><td>Content-Length</td><td>3570</td></tr> <tr><td>Server</td><td>GitHub.com</td></tr> <tr><td>Content-Type</td><td>text/html; charset=utf-8</td></tr> <tr><td>Last-Modified</td><td>Wed, 12 Nov 2025 18:50:39 GMT</td></tr> <tr><td>Access-Control-Allow-Origin</td><td>*</td></tr> <tr><td>Strict-Transport-Security</td><td>max-age=31556952</td></tr> <tr><td>ETag</td><td>W/\"6914d6ff-4afd\"</td></tr> <tr><td>expires</td><td>Tue, 09 Dec 2025 19:00:36 GMT</td></tr> <tr><td>Cache-Control</td><td>max-age=600</td></tr> <tr><td>Content-Encoding</td><td>gzip</td></tr> <tr><td>x-proxy-cache</td><td>MISS</td></tr> <tr><td>X-GitHub-Request-Id</td><td>A472:1C2867:1C884F4:1CC8870:69386F7C</td></tr> <tr><td>Accept-Ranges</td><td>bytes</td></tr> <tr><td>Date</td><td>Tue, 09 Dec 2025 19:12:50 GMT</td></tr> <tr><td>Via</td><td>1.1 varnish</td></tr> <tr><td>Age</td><td>1</td></tr> <tr><td>X-Served-By</td><td>cache-par-lfpg1960034-PAR</td></tr> <tr><td>X-Cache</td><td>HIT</td></tr> <tr><td>X-Cache-Hits</td><td>1</td></tr> <tr><td>X-Timer</td><td>S1765307571.953576,VS0,VE2</td></tr> <tr><td>Vary</td><td>Accept-Encoding</td></tr> <tr><td>X-Fastly-Request-ID</td><td>41d0dd2a2fbb2638b0970d678e857e73ca6f116d</td></tr> </table>",
+      "ref": null,
+      "tag": null,
+      "title": "HTTP Headers found",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "This header defines type of encoding used on the data. (e.g. compression).",
+      "ref": [
+        "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields ",
+        "https://en.wikipedia.org/wiki/HTTP_compression"
+      ],
+      "tag": null,
+      "title": "Content encoding was clearly defined in HTTP Headers.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Standards_Compliance",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": "Correctly defined HTTP headers help web bots understand the content.",
+      "ref": [
+        "http://en.wikipedia.org/wiki/MIME"
+      ],
+      "tag": null,
+      "title": "Content type was clearly defined.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Metadata"
+      ],
+      "level": 100,
+      "message": " <strong>Expires</strong> was clearly defined in HTTP headers: <strong>Tue, 09 Dec 2025 19:00:36 GMT</strong>. <br /> <strong>Last-Modified</strong> was clearly defined in HTTP headers: <strong>Wed, 12 Nov 2025 18:50:39 GMT</strong>. <br/> <strong>Etag</strong> was clearly defined in HTTP headers: <strong>W/\"6914d6ff-4afd\"</strong>. <br />\nHTTP caching headers are critical to improve web archiving bots performance\nbecause they help avoid downloading unmodified content multiple times.",
+      "ref": [
+        "https://developers.google.com/speed/docs/best-practices/caching"
+      ],
+      "tag": null,
+      "title": "HTTP caching headers enabled.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 0,
+      "message": "Sitemaps are an easy way for webmasters to inform web bots about available web pages so that they can more intelligently crawl the site.",
+      "ref": [
+        "http://www.sitemaps.org/"
+      ],
+      "tag": null,
+      "title": "No sitemap.xml found.",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Cohesion"
+      ],
+      "level": 100,
+      "message": "Therefore, it is easier to be archived.",
+      "ref": null,
+      "tag": null,
+      "title": "No images found in this page.",
+      "weight": "MEDIUM"
+    },
+    {
+      "facets": [
+        "Accessibility",
+        "Standards_Compliance"
+      ],
+      "level": 100,
+      "message": "Proprietary formats are not recommended for long term preservation. Please consider changing your content to open formats.",
+      "ref": [
+        "http://www.ands.org.au/guides/file-formats-working.html"
+      ],
+      "tag": null,
+      "title": "You are not using any external proprietary objects (Flash, Quicktime).",
+      "weight": "HIGH"
+    },
+    {
+      "facets": [
+        "Accessibility"
+      ],
+      "level": 100,
+      "message": "Website performance affects greatly the process of data aggregation and web accessibility. Performance evaluation rating is 100 when response time is 200ms or less and 0 when response time is more than 2sec.",
+      "ref": [
+        "https://developers.google.com/speed/docs/insights/Server"
+      ],
+      "tag": null,
+      "title": "Network response time is 192 ms",
+      "weight": "HIGH"
+    }
+  ],
+  "test": {
+    "Accessibility": 82,
+    "Accessibility_weight": "medium",
+    "Cohesion": 40,
+    "Cohesion_weight": "medium",
+    "Metadata": 100,
+    "Metadata_weight": "medium",
+    "Standards_Compliance": 39,
+    "Standards_Compliance_weight": "medium",
+    "website_archivability": 65
+  },
+  "test_id": 500563,
+  "url": "https://takenot-es.github.io"
+}
